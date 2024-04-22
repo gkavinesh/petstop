@@ -1,0 +1,23 @@
+import React from "react";
+import Image from "../Assets/petsforfooter.png"
+
+const Contact = () => {
+  return (
+    <div className="contact-page-wrapper">
+      <h1 className="primary-heading">Have Question In Mind?</h1>
+      <h1 className="primary-heading">Let Us Help You</h1>
+      <div className="contact-form-container">
+        <input type="text" placeholder="yourmail@gmail.com" />
+        <button className="secondary-button">Submit</button>
+      </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <img src={Image} alt="pets for footer"/>
+    </div>
+  );
+};
+
+export default Contact;
