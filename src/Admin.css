@@ -418,7 +418,6 @@ nav {
     margin-top: 1rem !important;
   }
   .contact-form-container {
-    margin-top: 4rem;
     padding: 0.5rem !important;
     flex-direction: column;
     justify-content: center;
@@ -488,7 +487,6 @@ nav {
   border-radius:20px;
   cursor: pointer;
   width: 100%;
-  font-size: 20px;
 }
 
 /* Add a hover effect for buttons */
@@ -522,87 +520,34 @@ nav {
     }
 }
 
-
-/* Container for centering the form */
-.center-form {
+.product-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
+  flex-wrap: wrap;
 }
 
-/* Form styles */
-form {
-  width: 100%;
-  max-width: 400px;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
-/* Form input styles */
-.form-control {
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  width: 100%;
-}
-
-/* Textarea input style */
-.form-control.textarea {
-  height: 120px;
-}
-
-/* Button styles */
-.btn-primary {
-  background-color: #ff7f50;
-  border: none;
-  border-radius: 4px;
-  padding: 12px 20px;
-  font-size: 16px;
-  color: #fff;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  align-self: center; /* Center the button horizontally */
-}
-
-.btn-primary:hover {
-  background-color: #ff6347;
-}
-
-/* Media query for smaller screens */
-@media (max-width: 576px) {
-  form {
-    margin-top: 7rem;
-    padding: 20px;
-  }
-}
-
-.popup {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.product-card {
   background-color: #ffffff;
-  border: 1px solid #cccccc;
-  border-radius: 5px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  z-index: 9999;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 300px;
 }
 
-.popup p {
-  margin: 0;
+.product-image {
+  width: 250px;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
-/* Media query for mobile devices */
-@media only screen and (max-width: 600px) {
-  .popup {
-      width: 90%;
-      max-width: 90%;
-      padding: 10px;
-  }
+.product-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #888888;
 }

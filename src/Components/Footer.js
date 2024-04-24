@@ -1,9 +1,5 @@
 import React from "react";
 import Logo from "../Assets/Logo.png";
-import { BsTwitter } from "react-icons/bs";
-import { SiLinkedin } from "react-icons/si";
-import { BsYoutube } from "react-icons/bs";
-import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -16,7 +12,6 @@ const Footer = () => {
       <div className="footer-section-two">
         <div className="footer-section-columns">
           <span>Location</span>
-          <span>Help</span>
           <span>Products</span>
           <span>Home</span>
         </div>
