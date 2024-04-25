@@ -16,8 +16,7 @@ public class Order {
     private Long id;
 
     private String itemname;
-    private int price;
     private int quantity;
-    private boolean processed;
+    private String contactEmail;
 }
 
